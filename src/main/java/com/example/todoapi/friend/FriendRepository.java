@@ -11,6 +11,7 @@ import java.util.List;
 public class FriendRepository {
 
     @PersistenceContext
+
     private EntityManager em;
 
     // 생성

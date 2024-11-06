@@ -34,4 +34,8 @@ public class Todo {
     public void updateContent(String newContent) {
         this.content = newContent; //할 일 내용 엡데이트해주는 메서드
     }
+
+    public void setChecked(boolean checked) {
+        this.isChecked = checked;
+    }
 }
